@@ -1,0 +1,132 @@
+body{
+    background-color: white;
+    background: linear-gradient(to right, rgb(125, 168, 135),white);
+    background-attachment:fixed;
+    background-position: top right;
+    background-repeat: no-repeat;
+    padding-top: 200px;
+    padding-bottom: 60px;
+    padding-left: 100px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    width: 600px;
+}
+
+header{
+    height: fit-content;
+    width: 800px;
+    position: fixed;
+    top: 0;
+}
+
+#profileName {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 36pt;
+}
+
+#titletext {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 30pt;
+}
+
+#profilePic {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    position: absolute;
+    right: 0px;
+    width: auto;
+}
+
+#profileText{
+    text-align: right;
+    text-shadow: 10px, 10px, cadetblue;
+    font-family: 'Tangerine', cursive;
+    font-size: 96pt;
+    color: rebeccapurple;
+    position: fixed;
+    width: 650px;
+    top: 0px;
+}
+
+#navbar{
+    padding-top: 100px;
+    left: 0px;
+}
+
+#navbuttons{
+    padding: 20px;
+    left: 0px;
+}
+
+erwinsPoints{
+    text-align: justify;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
+    width: 300px;
+    padding-left: 200px;
+}
+
+#point1{
+    font-size: 72pt;
+    color: navy;
+}
+
+#point1:hover + #htext1{
+    visibility: visible;
+}
+
+#point2{
+    font-size: 60pt;
+    color: rgb(8, 8, 61);
+}
+
+#point2:hover + #htext2{
+    visibility: visible;
+}
+
+#point3{
+    font-size: 72pt;
+    color: slateblue;
+}
+
+#point3:hover + #htext3{
+    visibility: visible;
+}
+
+#htext1{
+    font-weight: bold;
+    color: darkgreen;
+    font-size: 24pt;
+    visibility: hidden;
+}
+
+#htext2{
+    font-weight: bold;
+    color: darkgreen;
+    font-size: 24pt;
+    visibility: hidden;
+}
+
+#htext3{
+    font-weight: bold;
+    color: darkgreen;
+    font-size: 24pt;
+    visibility: hidden;
+}
+h2{
+    text-align: left;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
+    font-size: 24pt;
+}
+
+p{
+    text-align: left;
+    font-family: 'Oswald', sans-serif;
+    width: 800px;
+}
